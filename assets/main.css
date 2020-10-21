@@ -18,7 +18,7 @@ time, mark, audio, video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -54,17 +54,36 @@ nav{
 ul {
     display: flex;
 
-    justify-content: space-around;
+    justify-content: space-between;
 }
 li {
     list-style: none;
     display: inline;
+}
+
+#search-bar > button {
+  padding: 0.5em;
+  border: 1px solid #c9c4c4;
+  border-radius: 2px;
 }
 .right-btns > li {
     margin-left: 1em;
     margin-right: 1em;
 
 }
+
+.sign-in {
+  padding-top: 0.3em;
+  padding-right: 0.5em;
+  padding-bottom: 0.3em;
+  padding-right: 0.5em;
+  border: 1px solid rgb(6, 95, 212);
+  color: rgb(6, 95, 212);
+  font-weight: 550;
+
+}
+
+
 .notification{
 margin-top: 1em;
 background-color: white;
@@ -116,14 +135,14 @@ display: inline-flex;
 .current-vid {
 
     background-color: white;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 1/4;
     height: auto;
 }
 
 .stats {
     background-color: white;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 4/5;
 }
 .vid-stats{
@@ -149,7 +168,7 @@ display: inline-flex;
 }
 .description {
     background-color: white;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 5/6;
 }
 .description-channel{
@@ -169,7 +188,7 @@ display: inline-flex;
 }
 .comments {
     background-color: white;
-    grid-column: 1/5;
+    grid-column: 1/6;
     grid-row: 6/8;
     display: inline-flex;
 
@@ -180,7 +199,7 @@ display: inline-flex;
 }
 
 .recommended-videos {
-  grid-column: 5/7;
+  grid-column: 6/7;
   grid-row: 1/7;
   display: grid;
   grid-gap: 1em;
@@ -235,5 +254,31 @@ display: inline-flex;
     grid-row-start: 9;
     grid-row-end: 10;
 }
+
+.recommended-videos > .box > img {
+  width: 45%;
+}
+
+.yt-logo {
+  width: 5.5em;
+  height: auto;
+  padding-left: 1em;
+}
+
+li > i, .yt-logo {
+  vertical-align: middle;
+}
+
+li > input {
+  padding: 0.5em;
+  border: 1px solid #c9c4c4;
+  border-radius: 2px;
+  padding-right: 35em;
+
+}
+
+
+
+
 
 
