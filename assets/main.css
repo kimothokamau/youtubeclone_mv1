@@ -105,7 +105,6 @@ display: inline-flex;
 
 .box {
   background-color: white;
-  font-size: 150%;
   padding: 1.5em;
 
 }
@@ -127,18 +126,57 @@ display: inline-flex;
     grid-column: 1/5;
     grid-row: 4/5;
 }
-
+.vid-stats{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 1em;
+}
+.left-group{
+  display: inline-flex;
+}
+.left-group > p{
+  padding-right: 1em;
+}
+.right-group{
+  display: inline-flex;
+}
+.stats-btns{
+  display: inline-flex;
+  padding-right: 1em;
+}
+.stats-btns > a{
+  padding-right: 0.5em;
+}
 .description {
     background-color: white;
     grid-column: 1/5;
     grid-row: 5/6;
 }
-
+.description-channel{
+  display: flex;
+  justify-content: space-between;
+}
+.description-title{
+  padding-left: 1em;
+}
+.video-description{
+  width: 50%;
+  padding-left: 3em;
+  padding-top: 1em;
+}
+.video-description > a{
+  padding-top: 1em;
+}
 .comments {
     background-color: white;
     grid-column: 1/5;
     grid-row: 6/8;
+    display: inline-flex;
 
+}
+.comments > div{
+  padding-left: 1em;
+  display: inline-flex;
 }
 
 .recommended-videos {
