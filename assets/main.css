@@ -88,6 +88,12 @@ cursor: pointer;
 
 }
 
+.sign-in:hover {
+  cursor: pointer;
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+
 
 .notification{
 margin-top: 1em;
