@@ -53,9 +53,10 @@ nav{
 }
 ul {
     display: flex;
-
     justify-content: space-between;
+    align-items: center;
 }
+
 li {
     list-style: none;
     display: inline;
@@ -63,8 +64,13 @@ li {
 
 #search-bar > button {
   padding: 0.5em;
-  border: 1px solid #c9c4c4;
-  border-radius: 2px;
+  border: 1px solid #d3d3d3;
+  background-color: #f0f0f0;
+}
+#search-bar > button:hover{
+background-color: #ecebeb;
+color: #5c5c5c;
+cursor: pointer;
 }
 .right-btns > li {
     margin-left: 1em;
@@ -293,6 +299,12 @@ display: inline-flex;
   grid-column: 2/3;
   grid-row: 8/9;
 }
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #6b6b6b;
+}
 
 
 .recommended-videos > .box > img {
@@ -308,13 +320,15 @@ display: inline-flex;
 
 li > i, .yt-logo {
   vertical-align: middle;
+  font-size: 1.5em;
 }
 
 li > input {
   padding: 0.5em;
-  border: 1px solid #c9c4c4;
+  border: 1px solid #d3d3d3;
   border-radius: 2px;
   padding-right: 35em;
+  font-family: 'Roboto',sans-serif;
 
 }
 
@@ -329,6 +343,32 @@ section {
 iframe {
   width: 100%;
 
+}
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext{
+  visibility: hidden;
+  position: absolute;
+  color: white;
+  background-color: #6b6b6b;
+  opacity: 80%;
+  padding: 0.5em;
+  margin-top: 1em;
+  font-size: small;
+  font-weight: bold;
+  width: max-content;
+  font-family: 'Roboto', sans-serif;
+
+}
+.tooltip:hover .tooltiptext{
+  visibility: visible;
+}
+.search-btn{
+  color: #6b6b6b;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 
