@@ -140,7 +140,6 @@ display: inline-flex;
 }
 
 .current-vid {
-
     background-color: white;
     grid-column: 1/6;
     grid-row: 1/4;
@@ -151,7 +150,8 @@ display: inline-flex;
     background-color: white;
     grid-column: 1/6;
     grid-row: 4/5;
-    padding-top: 0em; 
+    padding-top: 0em;
+    padding-bottom: 0em;
 }
 .stats > h2{
   font-weight: bold;
@@ -191,6 +191,7 @@ display: inline-flex;
     background-color: white;
     grid-column: 1/6;
     grid-row: 5/6;
+    padding-top: 0em; 
 }
 .description-channel{
   display: flex;
@@ -212,11 +213,16 @@ display: inline-flex;
     grid-column: 1/6;
     grid-row: 6/8;
     display: inline-flex;
+    padding-top: 0em;
 
 }
 .comments > div{
   padding-left: 1em;
   display: inline-flex;
+}
+
+#commenter {
+  display: block;
 }
 
 .recommended-videos {
