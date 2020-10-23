@@ -35,11 +35,11 @@ The webpage will open in your browser
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/rebeccayilma)
+- GitHub: [@rebeccayilma](https://github.com/rebeccayilma)
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/kimothokamau)
+- GitHub: [@kimothokamau](https://github.com/kimothokamau)
 
 ## 🤝 Contributing
 
