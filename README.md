@@ -2,6 +2,8 @@
 This is the first project of the MIcroverse HTML/CSS Course.
 The requirement is to create a webpage that looks like the YouTube video player
 
+![screenshot](./assets/youtubeclone-mv-screenshot.png)
+
 # Built With
 - HTML
 - CSS
